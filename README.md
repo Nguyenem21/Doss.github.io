@@ -10,6 +10,7 @@
 # Cách Vào Tool
 
 * Vào CH Play Hoặc Appstore Tải Google Cloud Để Chạy Tool Nhé!
+* Hoặc lên web vào https://shell.cloud.google.com/
 
 * ```git clone https://github.com/Nguyenem21/Doss.github.io```
 * ```cd Doss.github.io; sh vdh.sh```
