@@ -11,7 +11,7 @@
 
 * Vào CH Play Hoặc Appstore Tải Google Cloud Để Chạy Tool Nhé!
 
-* ```git clone https://github.com/Nguyenem21/Doss.github.io```
+* ```git clone https://github.com/viduchung/DDoS.git```
 * ```cd DDoS; sh vdh.sh```
 
 # Contact Me 
@@ -23,7 +23,3 @@
 
 
 
-Tool Tạo Ra Chỉ Cho Vui, Để Cho Những Người Chưa Biết DDoS Thử Cảm Giác DDoS Nó Là Như Thế Nào.
-Tool Chỉ Pem Web Nhẹ, Khả Năng DDoS Của Tool Rất Lởm Chỉ Pem Web Die Vài Phút Rồi Tự Nhả.
-Tool Được Làm Dự Trên Source Của FDc0d3 Được Nguyên Fix Và Edit Lại Nếu Lỗi Bản Quyền Hay Lỗi Khác Inbox Me Để Có Hướng Giải Quyết.
-Copyright © 2022, Nguyễn Phúc Nguyên
