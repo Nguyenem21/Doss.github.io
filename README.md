@@ -11,7 +11,7 @@
 
 * Vào CH Play Hoặc Appstore Tải Google Cloud Để Chạy Tool Nhé!
 
-* ```git clone https://github.com/viduchung/DDoS.git```
+* ```git clone https://github.com/Nguyenem21/Doss.github.io```
 * ```cd DDoS; sh vdh.sh```
 
 # Contact Me 
