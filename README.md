@@ -1,6 +1,6 @@
 # Chức Năng 
 
-* DDos
+* DDoS
 
 * SOCKET
 * PEM BẰNG URL V1
