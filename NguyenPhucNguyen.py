@@ -683,8 +683,8 @@ if __name__ == '__main__':
 {Color.LC}EXIT{Color.LR} ~> {Color.LY}Exit the program
 {Color.LC}STOP{Color.LR} ~> {Color.LY}Stop your Attack
 {Color.LC}DEV{Color.LR} ~> {Color.LY}Contact/Support dev"""
-	dev = f"""{Color.LC}Telegram{Color.LR}: {Color.LY}https://t.me/FDc0d3
-{Color.LC}New[BTC]Address{Color.LR}: {Color.LY}32FGCnt4uwkkByWuH8V4qyCSfynm1iVsmB"""
+	dev = f"""{Color.LC}Facebook{Color.LR}: {Color.LY}https://www.facebook.com/lousie.kamui
+{Color.LC}New[BTC]Address{Color.LR}: {Color.LY}Việt Nam"""
 	NPN_Tool = Home(commands, dev)
 	Tool = Tool(commands, dev, spoof_useragents())
 	main()
