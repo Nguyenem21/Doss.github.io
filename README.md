@@ -14,7 +14,7 @@
 
 * ```git clone https://github.com/Nguyenem21/Doss.github.io```
 * ```cd Doss.github.io``` 
-* ``` sh npn.sh```
+* ``` sh npn.sh or sh vdh.sh```
 
 # Contact Me 
 
