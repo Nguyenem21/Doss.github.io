@@ -1,6 +1,6 @@
 # Chức Năng 
 
-* DDoS
+* DDos
 
 * SOCKET
 * PEM BẰNG URL V1
@@ -12,7 +12,7 @@
 * Vào CH Play Hoặc Appstore Tải Google Cloud Để Chạy Tool Nhé!
 
 * ```git clone https://github.com/Nguyenem21/Doss.github.io```
-* ```cd DDoS; sh vdh.sh```
+* ```cd Doss.github.io; sh vdh.sh```
 
 # Contact Me 
 
