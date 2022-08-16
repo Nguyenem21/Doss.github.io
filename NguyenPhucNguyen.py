@@ -52,7 +52,7 @@ class Home:
 ═════════════════════════
 """)
 		print(Color.LC+"    Type "+Color.LB+"'HELP'"+Color.LC+" Để Xem All Lệnh\n\n")
-		print(Color.LR+"["+Color.LG+"2006"+Color.LR+"]"+Color.LC+" DDos")
+		print(Color.LR+"["+Color.LG+"2006"+Color.LR+"]"+Color.LC+" Doss.github.io")
 		print("\n")
 		while True:
 			try:
@@ -419,10 +419,10 @@ class Tool:
 
 	def bbos(self):
 		print(Color.LR+"\n\n[ "+Color.LG+"Tool Chỉ Pem Được Web Thường, Web Khỏe Thì Bó Tay"+Color.LR+" ]\n\n")
-		print(Color.LR+"["+Color.LG+"01"+Color.LR+"]"+Color.LC+" DDos")
+		print(Color.LR+"["+Color.LG+"01"+Color.LR+"]"+Color.LC+" Doss.github.io")
 		print("\n")
 		while True:
-			sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+"Nguyễn Phúc Nguyên"+Color.LB+" --> "+Color.LG+"DDos"+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
+			sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+"Nguyễn Phúc Nguyên"+Color.LB+" --> "+Color.LG+"Doss.github.io"+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
 			option = input()
 			if option == '01' or option == '1':
 				os.system('clear');self.l7()
@@ -550,7 +550,7 @@ class Tool:
 		print("\n")
 		http_proxy = "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all"
 		while True:
-			sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+"Nguyễn Phúc Nguyên"+Color.LB+" --> "+Color.LG+"DDos"+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
+			sys.stdout.write(Color.LB+"╔═══"+Color.LR+"["+Color.LG+"Nguyễn Phúc Nguyên"+Color.LB+" --> "+Color.LG+"Doss.github.io"+Color.LR+"]"+Color.LB+"\n╚══> "+Color.RESET)
 			option = input()
 			if option == '01' or option == '1':
 				try:
