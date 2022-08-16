@@ -10,7 +10,8 @@
 # Cách Vào Tool
 
 * Vào CH Play Hoặc Appstore Tải Google Cloud Để Chạy Tool Nhé!
-* Hoặc lên web vào https://shell.cloud.google.com/
+* Hoặc Lên Web Vào https://shell.cloud.google.com/
+* Anh Em Nào Biết Dùng Termux Rồi Thì Dùng!
 
 * ```git clone https://github.com/Nguyenem21/Doss.github.io```
 * ```cd Doss.github.io``` 
