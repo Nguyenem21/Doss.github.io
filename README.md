@@ -12,10 +12,11 @@
 * Vào CH Play Hoặc Appstore Tải Google Cloud Để Chạy Tool Nhé!
 * Hoặc Lên Web Vào https://shell.cloud.google.com/
 * Anh Em Nào Biết Dùng Termux Rồi Thì Dùng!
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+* Anh Em Nhập Lệnh Vô Là Nó Chạy Nhé
 * ```git clone https://github.com/Nguyenem21/Doss.github.io```
 * ```cd Doss.github.io``` 
-* ``` sh npn.sh``` or ```sh vdh.sh```
+* ``` sh npn.sh``` 
 
 # Contact Me 
 
